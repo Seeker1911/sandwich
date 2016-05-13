@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Sandwich Maker</title>
+  </head>
+  <body>
+    <section id="menu">
+
+    <select name"bread" id="menu_bread">
+      <option value="" disabled selected>Choose your bread</option>
+      <option value="white">White</option>
+      <option value="wheat">Wheat</option>
+      <option value="rye">Rye</option>
+      <option value="pumpernickel">pumpernickel</option>
+      <option value="lettuce_wrap">lettuce</option>
+    </select>
+
+    <div id="menu_meat">
+      <input type="checkbox" value="no_meat">No Meat
+      <input type="checkbox" value="turkey">Turkey
+      <input type="checkbox" value="bacon">Bacon
+      <input type="checkbox" value="tempeh">Tempeh
+      <input type="checkbox" value="spam">Spam
+    </div>
+    <div id="menu_cheese">
+      <input type="checkbox" value="no_cheese">No Cheese
+      <input type="checkbox" value="swiss">Swiss
+      <input type="checkbox" value="american">American
+      <input type="checkbox" value="provolone">provolone
+      <input type="checkbox" value="pepper_jack">Pepper Jack
+    </div>
+
+    <div id="menu_condiments">
+      <input type="checkbox" value="no_goop">No condiments
+      <input type="checkbox" value="mayo">Mayo
+      <input type="checkbox" value="mustard">Mustard
+      <input type="checkbox" value="relish">Relish
+    </div>
+
+    <div id="menu_veggies">
+      <input type="checkbox" value="no_green">No veggies
+      <input type="checkbox" value="lettuce">Lettuce
+      <input type="checkbox" value="onion">Onion
+      <input type="checkbox" value="tomato">Tomato
+    </div>
+
+    </section>
+    <article id="order_output">
+
+    </article>
+
+    <script type="text/javascript" src="javascripts/SandwichMaker.js" charset="utf-8"> </script>
+    <script type="text/javascript" src="javascripts/meat.js" charset="utf-8"> </script>
+    <script type="text/javascript" src="javascripts/DOMHandler.js" charset="utf-8"> </script>
+    <script type="text/javascript" src="javascripts/cheese.js" charset="utf-8"> </script>
+    <script type="text/javascript" src="javascripts/bread.js" charset="utf-8"> </script>
+    <script type="text/javascript" src="javascripts/veggie.js" charset="utf-8"> </script>
+    <script type="text/javascript" src="javascripts/goop.js" charset="utf-8"> </script>
+  </body>
+</html>
